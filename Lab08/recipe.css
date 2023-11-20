@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('background1Small.jpeg');
+    background-size:contain ;
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    background-color:darkgoldenrod;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+background-color: #3498db;
+
+}
+
+
+nav {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    background-color: #3498db;
+    border: 1px solid #FFD700;
+    color: #fff;
+}
+
+nav h3 {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+nav li:hover {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+
+main {
+    float: right;
+    width: 50%;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #FFD700;
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
+
+main li:active {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+
+footer {
+    text-align:center;
+    font-style: italic;
+    background-color: #3498db;
+    clear: both;
+    padding: 10px;
+    border: 1px solid #FFD700;
+    color: #fff;
+}
+
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+color:blue;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav, main {
+        float: none;
+        width: 100%;
+    }
+}
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+th, td {
+            border: 2px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+th {
+            background-color: #f2f2f2;
+        }
+
+td:first-child {
+      font-weight: bold;
+      background-color: #e6f7ff;
+    }
+tr:hover {
+      background-color: rgba(144, 202, 249, 0.5);
+    }
+
+
+    .recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: indianred;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: gold ;
+}
