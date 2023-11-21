@@ -131,6 +131,9 @@ th {
             background-color: #f2f2f2;
         }
 
+.ingredient-column {
+      background-color: gold ;
+    }
 td:first-child {
       font-weight: bold;
       background-color: #e6f7ff;
