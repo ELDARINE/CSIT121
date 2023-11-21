@@ -136,3 +136,6 @@ td:first-child {
 tr:hover {
       background-color: rgba(144, 202, 249, 0.5);
     }
+.ingredient-column {
+      background-color: gold ;
+    }
